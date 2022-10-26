@@ -74,6 +74,6 @@ fun DiceWithButton(modifier : Modifier = Modifier) {
 }
 
 fun roll() :Int{
-    return (0..6).random()
+    return (1..6).random()
 
 }
